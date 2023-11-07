@@ -1,6 +1,6 @@
 /*
 CatHotAirBalloon
-Version 1.0.0
+Version 1.0.1
 A friendly catto to float along.
 
 written by bitty45
@@ -134,7 +134,7 @@ func resetPet()
   
 func petMain()
   pos_x = pos.x
-  ?!petPnl
+  ?totalTime = 1
     initPet()
   petScreenX = screen.FromWorldX(petX + X_OFFSET)
   offScreen_behind = petScreenX < MIN_X
